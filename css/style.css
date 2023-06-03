@@ -1,0 +1,337 @@
+html, 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+img {
+    max-width: 100%;
+}
+
+/*PARAGRAPHS*/
+.mobile-paragraphs{
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-top: 0;
+}
+
+.heading,
+.home-caption,
+.mobile-paragraphs{
+    color:#151515;
+}
+/*LEARNING PAGE CSS */
+.fa-solid{
+    padding-left:1.25em;
+    font-size: 1rem;
+        
+
+}
+nav{
+    height: 100%;
+    width:100%;
+}
+.bigger-text{
+    font-size: 1rem;
+}
+
+nav a{
+    padding:2em 0;
+    text-decoration: none;
+    color:#090909;
+    font-weight: bold;
+}
+
+li{
+    list-style: none;
+}
+
+nav,
+ul{
+    display:flex;
+    justify-content: space-between;
+    
+
+}
+
+.nav-link{
+   padding-right: 2em;
+    font-size:0.75rem;
+
+}
+
+.learning-section-one{
+    background-image: url("images/bg.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;
+    padding:0;
+    margin-bottom:2.125em;
+}
+
+.bg-date,
+.bg-big-text,
+.bg-small-text{
+    color:#ffffff;
+    margin: 0;
+}
+.bg-date,
+.bg-small-text{
+        padding-left: 1.25em;
+
+}
+
+.bg-date{
+    padding-top:5em;
+    font-size: 0.75rem;
+     margin:0;
+}
+
+.bg-big-text{
+width: 80%;
+padding: 0.5em 0 0.25em 0.5em;
+font-size:2rem;
+}
+
+.bg-small-text{
+  font-size: 1rem;  
+  padding-bottom:1.5625em;
+}
+
+/*LEARNING SECTION TWO CSS*/
+.learning-section-two{
+    display: flex;
+    flex-direction: column;
+    padding: 0 1.25em;
+}
+
+.learning-laptop{
+width: 100%;
+height: 100%;
+border-radius: 3px;
+}
+
+.date{
+    font-size: 0.875rem;
+    margin-top:0.875em;
+    margin-bottom: 0;
+}
+
+.blog{
+    font-size:1.5rem;
+    margin:0.5em 0;
+}
+
+
+/*VIEW MORE*/
+.view{
+    display: flex;
+}
+.view-more{
+    font-size: 1rem;
+    font-weight: bold;
+     margin:0 auto;
+     border-bottom: 2px solid;
+     padding-top: 1.6875em;
+     cursor: pointer;
+}
+
+/*HOME PAGE CSS */
+
+.home-section-one{
+    margin:2em 1.25em 3.1875em 1.25em;;
+}
+
+.home-date{
+    font-size: 0.75rem;
+    margin:0;
+}
+
+.home-caption{
+    font-size: 2rem;
+    margin: 0.5em 0;
+    
+}
+
+.home-body-text{
+    margin:0;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.home-first-image{
+    height: 100%;
+    width: 100%;
+    margin: 2em 0;
+    border-radius: 3px;
+}
+
+.heading{
+    margin:0 0 1em 0;
+    font-weight: bold;
+}
+
+/*RECENT POSTS*/
+.heading-two{
+    font-size: 1rem;
+    color:#000000;
+    font-weight: bold;
+    text-align: center;
+    margin: 2.8125em 0 1.6875em 0;
+}
+
+
+
+/*ABOUT ME CSS */
+.me{
+    width:50%;
+    border-radius: 50%;
+    margin: 0 0 1.6875em 0;   
+}
+
+.about-me,
+.about-me-text{
+        color:#151515;
+
+}
+
+.about-me{
+    font-size: 5vw;
+    margin: 0;
+}
+
+.about-me-text{
+    font-size: 1rem;
+    margin: 1em 0 3.125em 0;
+    line-height: 1.5;
+}
+
+.about-me-section{
+    margin: 1.625em 0 0 1.256em;
+}
+
+/* FOOTER */
+.landing-footer,
+.home-footer{
+    width:100%;
+    height:105px;
+    background-color:#202020;
+    margin-top:2.6875em;
+}
+
+.home-footer{
+    margin-top: 3.5em;
+}
+
+.footer-big,
+.footer-small{
+    color:#ffffff;
+    text-align: center;
+      font-size: 0.75rem;
+
+
+}
+.footer-big{
+    font-weight: bold;
+  padding-top: 3em;
+  margin:0.1875em 0 0 0;  
+}
+
+.footer-small{
+    margin:0;
+}
+
+
+
+/*MEDIA QUERRY*/
+
+@media (min-width: 768px){
+
+    
+    .fa-solid
+    {
+    padding-left:3.3em;
+}
+.heading-two,
+.heading{
+    font-size: 1.5rem;
+}
+
+.bigger-text,
+.fa-solid{
+    font-size: 1.25rem;
+}
+
+.nav-link{
+    font-size: 1rem;
+}
+
+.bg-date{
+    padding-top:14.8em;
+    font-size:1rem;
+}
+.bg-big-text{
+    font-size: 2.5rem;
+}
+.bg-small-text{
+    padding-bottom: 3.7em;
+    width: 80%;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.learning-section-one{
+margin-bottom: 3.3em;
+}
+
+.first-cont{
+    padding-left: 2em;
+}
+
+.learning-laptop{
+height:232px;
+}
+.learning-section-two{
+    padding:0;
+    margin: 0;
+}
+ .blog-container{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+   grid-gap: 1.625em;
+ }  
+ .about-me-cont1,
+ .blog-container{
+        padding: 0 3.3em;
+ }
+ .about-me-cont1{
+     height: 300px;
+     margin-top: 8em;
+display: grid;
+    grid-template-columns:  30% 1fr;
+         align-items: center;
+margin-bottom: 5em;
+ }
+ 
+ .me{
+     width: 80%;     
+ }
+ 
+ .about-me,
+ .about-me-text{
+     margin:0;
+     padding:0;
+     height:100px;
+ }
+ .about-me-text{
+     margin-left:0;
+ }
+ .about-me{
+     font-size: 2rem;
+
+ }
+ .desktop-view{
+padding: 0 7.6em;
+ }
+ 
+
+}
