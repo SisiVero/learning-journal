@@ -202,7 +202,7 @@ border-radius: 3px;
 
 .about-me-text{
     font-size: 1rem;
-    margin: 3em 0 3.125em 0;
+    margin: 1em 0 3.125em 0;
     line-height: 1.5;
 }
 
@@ -316,7 +316,7 @@ margin-bottom: 5em;
  
  .about-me,
  .about-me-text{
-     margin:0;
+     
      padding:0;
      height:100px;
  }
