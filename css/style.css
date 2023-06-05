@@ -281,9 +281,6 @@ border-radius: 3px;
 margin-bottom: 3.3em;
 }
 
-.first-cont{
-    padding-left: 2em;
-}
 
 .learning-laptop{
 height:232px;
@@ -298,7 +295,8 @@ height:232px;
    grid-gap: 1.625em;
  }  
  .about-me-cont1,
- .blog-container{
+ .blog-container,
+  .first-cont{
         padding: 0 3.3em;
  }
  .about-me-cont1{
