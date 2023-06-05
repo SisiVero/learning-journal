@@ -246,7 +246,9 @@ border-radius: 3px;
 /*MEDIA QUERRY*/
 
 @media (min-width: 768px){
-
+nav{
+    padding-right: 2em;
+    }
     
     .fa-solid
     {
