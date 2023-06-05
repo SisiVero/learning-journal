@@ -60,7 +60,9 @@ ul{
 }
 
 .learning-section-one{
-
+    background-image: url("images/bg.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 292px;
     width:100%;
     padding:0;
