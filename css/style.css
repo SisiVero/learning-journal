@@ -60,7 +60,7 @@ ul{
 }
 
 .learning-section-one{
-    background-image: url("/images/bg.jpeg") bottom center;
+    background-image: url("/images/bg.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     width:100%;
