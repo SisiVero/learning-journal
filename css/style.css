@@ -7,6 +7,9 @@ body {
 img {
     max-width: 100%;
 }
+.edge{
+    padding-right: 2em;
+}
 
 /*PARAGRAPHS*/
 .mobile-paragraphs{
