@@ -30,8 +30,10 @@ img {
 }
 nav{
     width:100%;
+}
+
+.edge{
     padding-right: 2em;
-    
 }
 .bigger-text{
        font-size: 3.5vw;
